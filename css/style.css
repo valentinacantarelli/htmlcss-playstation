@@ -1,0 +1,55 @@
+/*typo*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*common*/
+.buttons{
+    border-radius: 25px;
+}
+.red_btn{
+    background-color: #cd3d0f;
+    color: white;
+}
+
+/*header*/
+header{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top: 0;
+}
+.header_top{
+    background-color: black;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;  
+    padding-right: 10px; 
+}
+.logo-sony{
+    padding: 6px 0;
+    height: 25px;    
+}
+/*hero*/
+.hero{       
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;    
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    display: flex;
+    
+}
+.returnal_logo{
+    height: 20px;    
+}
+
+.hero_text {   
+    color: white;    
+   padding-top: 300px;
+    padding-left: 30px; 
+} 
+.title_hero{
+    padding: 15px 0;
+} 
