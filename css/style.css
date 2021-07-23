@@ -79,3 +79,27 @@ header{
 .small_hero{
     border-radius: 20px;
 }
+/*sezione ps5*/
+.play5{
+    margin-top: 110px;
+}
+.blue_text{
+    color: #0072ce;
+    font-size: 15px;
+}
+.grey_text{
+    color: #727272;
+    font-size: 18px;
+    padding-top: 18px;
+    font-weight: 500;
+}
+
+.play5_console{
+   width: 100%;
+}
+h2{
+    font-weight: 500;
+}
+.hero_h5{
+    padding-bottom:20px
+}
