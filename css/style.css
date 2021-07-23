@@ -3,8 +3,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*common*/
-.buttons{
-    border-radius: 25px;
+.grey_btn{
+    background-color: #363636;
+    color: white;
 }
 .red_btn{
     background-color: #cd3d0f;
@@ -28,6 +29,22 @@ header{
 .logo-sony{
     padding: 6px 0;
     height: 25px;    
+}
+.bg-light{
+    background-color: white;
+}
+.dropdown-toggle::after{
+    border: none;
+    content: url(../img/chevron-down-solid.svg);
+    display: inline-block;
+    width: 10px;
+    vertical-align: middle;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.search_img{
+    height: 25px;
 }
 /*hero*/
 .hero{       
