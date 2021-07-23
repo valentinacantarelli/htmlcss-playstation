@@ -11,7 +11,6 @@ body{
     background-color: #cd3d0f;
     color: white;
 }
-
 /*header*/
 header{
     position: fixed;
@@ -55,13 +54,11 @@ header{
     width: 100%;
     background-repeat: no-repeat;
     margin-top: 100px;
-    display: flex;
-    
+    display: flex;    
 }
 .returnal_logo{
     height: 20px;    
 }
-
 .hero_text {   
     color: white;    
    padding-top: 300px;
@@ -70,11 +67,9 @@ header{
 .title_hero{
     padding: 15px 0;
 } 
-
 .bottom_hero_img{
     margin-top: 24px;
-	padding: 2px;
-	
+	padding: 2px;	
 }
 .small_hero{
     border-radius: 20px;
@@ -93,7 +88,6 @@ header{
     padding-top: 18px;
     font-weight: 500;
 }
-
 .play5_console{
    width: 100%;
 }
@@ -103,3 +97,13 @@ h2{
 .hero_h5{
     padding-bottom:20px
 }
+.col_5{
+    height: 120px;      
+}
+.row-cols-xs-3 .col:not(:first-child){
+    opacity: 0.5;
+}
+.row-cols-xs-3 .col:first-child{
+    border-bottom:3px solid #0072ce;      
+}
+/* sezione hero 2 */
