@@ -53,3 +53,10 @@ header{
 .title_hero{
     padding: 15px 0;
 } 
+.small_hero{
+    height: 100px;
+    border-radius: 15px;
+}
+.row_under_hero{
+    margin-top: 20px;
+}
