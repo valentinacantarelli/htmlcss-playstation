@@ -107,3 +107,26 @@ h2{
     border-bottom:3px solid #0072ce;      
 }
 /* sezione hero 2 */
+.hero_2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;    
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: flex; 
+    color: white;
+}
+.takes_logo{
+    height: 200px;
+    margin:70px 0 30px 0;
+}
+/*sezione nuove uscite*/
+.nuove_uscite{
+    background-color: #1f1f1f;
+    color: white;
+}
+.nuove_uscite h3{
+    margin-top: 20px;
+}
