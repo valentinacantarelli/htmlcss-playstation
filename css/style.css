@@ -130,3 +130,13 @@ h2{
 .nuove_uscite h3{
     margin-top: 20px;
 }
+.img_news{
+    width: 100%;
+}
+/*sezione play4*/
+.play_4{
+    margin-top: 50px;
+}
+.play_4 .col-6{
+    margin: auto;
+}
