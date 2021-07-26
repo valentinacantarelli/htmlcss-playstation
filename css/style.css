@@ -11,6 +11,11 @@ body{
     background-color: #cd3d0f;
     color: white;
 }
+.ligth_grey_btn{
+    background-color: #d9dadc;
+    color: #0072ce;
+    margin: 30px 0;
+}
 /*header*/
 header{
     position: fixed;
@@ -142,9 +147,28 @@ h2{
     margin: auto;
 }
 .play4_img{
-    height: 150px;
+    max-height: 200px;
     margin-top: 80px;
 }
 .btn_ps4{
     margin: 20px 0 50px 0 ;
+}
+/*sezione playstation plus*/
+.playstation_plus{
+    background-color: #bebcbb;
+    width: 100%;
+    
+}
+.psplus_logo{
+    height: 70px;
+    margin:30px 0 40px 0;
+}
+.psplus_img{
+    max-height: 300%;
+}
+@media screen and (max-width:768px){
+    .psplus_img{
+        display: none;
+    }
+    
 }
