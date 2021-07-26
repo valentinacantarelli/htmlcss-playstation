@@ -16,6 +16,11 @@ body{
     color: #0072ce;
     margin: 30px 0;
 }
+.white_btn{
+    background-color: white;
+    color: black;
+    margin: 30px 0;
+}
 /*header*/
 header{
     position: fixed;
@@ -164,7 +169,8 @@ h2{
     margin:30px 0 40px 0;
 }
 .psplus_img{
-    max-height: 300%;
+    height:auto;
+    width: 100%;
 }
 @media screen and (max-width:768px){
     .psplus_img{
@@ -177,6 +183,22 @@ h2{
     margin-top: 70px;
 }
 .img_sconti{
-    margin-top: 50px;
+    margin: 50px 0;
     padding: 5px;
+}
+/*sezione ps now*/
+.ps_now{
+    background-color: #161c3b;
+    color: white;
+    width: 100%;
+}
+.psnow_img{
+    height: auto;
+    width: 100%;
+    
+}
+@media screen and (max-width:768px) {
+    .psnow_img{
+        display: none;
+    }
 }
