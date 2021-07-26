@@ -202,3 +202,11 @@ h2{
         display: none;
     }
 }
+/*sezione social*/
+.social_img{
+    margin: 5px 5px 30px 5px;
+    
+}
+.social h2{
+    margin: 50px 0;
+}
