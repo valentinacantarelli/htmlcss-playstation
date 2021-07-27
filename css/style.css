@@ -6,21 +6,49 @@ body{
 .grey_btn{
     background-color: #363636;
     color: white;
+    border: 2px solid #363636;
+}
+.grey_btn:hover{
+    box-shadow: inset 0px 0px 0px 2px white ;
+    color: white;
 }
 .red_btn{
     background-color: #cd3d0f;
+    color: white;
+    border: 2px solid #cd3d0f; 
+}
+.red_btn:hover{
+    box-shadow: inset 0px 0px 0px 2px black ;
     color: white;
 }
 .ligth_grey_btn{
     background-color: #d9dadc;
     color: #0072ce;
     margin: 30px 0;
+    border: 2px solid #d9dadc;
+}
+.ligth_grey_btn:hover{
+    box-shadow: inset 0px 0px 0px 2px #bebcbb ;
+    color: #0072ce;
 }
 .white_btn{
     background-color: white;
     color: black;
     margin: 30px 0;
+    border: 2px solid white;
 }
+.white_btn:hover{
+    box-shadow: inset 0px 0px 0px 2px #161c3b ;
+    color: black;
+}
+.btn-primary{
+    border:2px solid #2d64e6;
+}
+.btn-primary:hover{
+    box-shadow: inset 0px 0px 0px 2px white ;
+    color: white;
+}
+
 /*header*/
 header{
     position: fixed;
@@ -79,7 +107,11 @@ header{
 } 
 .bottom_hero_img{
     margin-top: 24px;
-	padding: 2px;	
+	padding: 2px;
+    transition: transform 0.2s linear;	
+}
+.bottom_hero_img:hover{
+    transform: translateY(-10px);
 }
 .small_hero{
     border-radius: 20px;
@@ -112,6 +144,10 @@ h2{
 }
 .row-cols-xs-3 .col:not(:first-child){
     opacity: 0.5;
+    transform: opacity 0.2s linear;
+}
+.row-cols-xs-3 .col:not(:first-child):hover{
+    opacity: 1;
 }
 .row-cols-xs-3 .col:first-child{
     border-bottom:3px solid #0072ce;      
