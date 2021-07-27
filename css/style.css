@@ -83,6 +83,18 @@ header{
 .search_img{
     height: 25px;
 }
+.fa-search{
+    color: black;
+}
+@media screen and (min-width:768px) and (max-width:830px) {
+    .grey_btn{
+        display:none;
+    }
+    .fa-search{
+        display: none;
+    }
+    
+}
 /*hero*/
 .hero{       
     background-image: url(../img/jumbo-bg.png);
