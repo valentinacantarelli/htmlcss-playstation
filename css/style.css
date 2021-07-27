@@ -204,9 +204,41 @@ h2{
 }
 /*sezione social*/
 .social_img{
-    margin: 5px 5px 30px 5px;
-    
+    margin: 5px 5px 50px 5px;    
 }
 .social h2{
     margin: 50px 0;
+}
+/*footer*/
+footer{
+    background-color: #00439c;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+footer li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.footer_top .row{
+    padding-top: 50px;
+}
+.footer_ps_logo{
+    width: 100px;
+}
+.fa-globe{
+    padding-right: 5px;
+}
+.footer_top p{
+    margin-top: 10px;
+}
+.footer_bottom a{
+    color: white;
+}
+.footer_bottom img{
+    margin-bottom: 15px;
+}
+.footer_bottom .container{
+    padding-bottom: 30px;
 }
